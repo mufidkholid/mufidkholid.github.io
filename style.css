@@ -1,0 +1,14 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #a9a9a9;
+}
+#collections {
+  background-color: #a9a9a9;
+}
+section {
+  padding-top: 5rem;
+}
+
+footer p a {
+  text-decoration: none;
+}
