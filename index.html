@@ -4,17 +4,18 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <title>Mufid Kholid</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
-    <title>Mufid Kholid</title>
+    <!-- (AOS) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-lg fixed-top" style="background-color: #a9a9a9">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-lg fixed-top" style="background-color: #a9a9a9" data-aos="fade-down" data-aos-duration="1000">
+      <div class="container" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
         <a class="navbar-brand" href="#">
           <img src="image/mufid.jpg" alt="" width="30" height="30" class="d-inline-block align-text-top rounded-circle" />
           Mufid Kholid
@@ -43,9 +44,13 @@
     <!-- Akhir navbar -->
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="image/mufid.jpg" alt="foto saya sendiri" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="myname">Mufid Kholid</h1>
-      <p class="lead">Student</p>
+      <div data-aos="flip-left" data-aos-duration="1000">
+        <img src="image/mufid.jpg" alt="foto saya sendiri" width="200" class="rounded-circle img-thumbnail" />
+      </div>
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+        <h1 class="display-8">Mufid Kholid</h1>
+        <p class="lead">Student | Freelancer</p>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -64,16 +69,16 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>
-              Lulusan S1 Informatika tahun 2025. Telah mengikuti bootcamp web development selama 1 tahun. Memiliki keahlian coding yaitu HTML, CSS, dan JavaScript untuk mengembangkan situs web. Memiliki satu situs web yang telah berjalan
-              dan didesain sendiri.
+              "S1 Informatics Engineering with 1 years of experience in the Web Development. I have a strong background in Front-end Developer, and I am proficient in React js. In my previous roles, I have successfully Developed and
+              maintained several websites using HTML, CSS, and JavaScript, including custom animations and interactive features."
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>
-              Seorang individu yang teliti, pekerja keras, dan optimis yang mampu menyesuaikan diri dengan lingkungan yang dinamis. Memiliki pengetahuan dalam bekerja sama dengan orang banyak dan kolaborasi proyek dengan berbagai tim dari
-              latar belakang berbeda.
+              "I am a highly motivated and hardworking individual, and I have excellent communication and problem-solving skills. I am also a team player and thrive in collaborative environments. I am confident that my skills and experience
+              make me a strong candidate for any web developer."
             </p>
           </div>
         </div>
@@ -97,7 +102,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="image/clt1.jpg" class="card-img-top" alt="collect 1" />
               <div class="card-body">
                 <p class="card-text">Diambil di tempat yang sama.</p>
@@ -105,7 +110,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="image/clt2.jpg" class="card-img-top" alt="collect 2" />
               <div class="card-body">
                 <p class="card-text">Diambil di tempat yang sama.</p>
@@ -113,7 +118,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="image/clt5.jpg" class="card-img-top" alt="collect 3" />
               <div class="card-body">
                 <p class="card-text">Diambil di tempat yang sama.</p>
@@ -182,8 +187,15 @@
       <p>&copy; Created with ngantuk by <a href="https://www.instagram.com/mufidkh/" target="_blank" class="text-black fw-bold">Babang Moopit.</a></p>
     </footer>
     <!-- Akhir  Footer -->
+    <!-- Script Bootstrap5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <!-- (AOS) -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
     <!-- Spreedsheets -->
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbyEhHZw6pydrFJQCs7mYbcN65MGOY16fOezTR5P3KuBFsx5_9e-gomZPWnXcwynA-U/exec";
